@@ -1,0 +1,7 @@
+<html>
+<head></head>
+<body>
+Drag this to your bookmark bar:
+<a href="javascript:location.href='http://app/organizations/make_current/'+prompt('Org ID')">Change Org</a>
+</body>
+</html>
