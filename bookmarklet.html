@@ -4,16 +4,11 @@
 	
 </head>
 <body>
-	Drag this to your bookmark bar:
-	<a href="javascript:(function()
-	{
-	var org = prompt('ORG ID:', '8');
-	
-	if(org != NULL)
-	{
-	location.href='http://app/organizations/make_current/'+org;
-	}
-	}
-)();">Change Org</a>
+Drag this to your bookmark bar:
+<a href="javascript:
+function()(
+{location.href='http://app/organizations/make_current/'+prompt('ENTER ORG ID:')">Change Org</a>}
+()
 </body>
 </html>
+
