@@ -5,6 +5,15 @@
 </head>
 <body>
 Drag this to your bookmark bar:
-<a href="javascript:location.href='http://app/organizations/make_current/'+prompt('ENTER ORG ID:')">Change Org</a>
+<a href="javascript:(function()
+{
+var org = prompt('ORG ID:\nLEAVE BLANK FOR DEMO FEST');
+if(org == '')
+{
+org = '8';
+}
+location.href='http://app/organizations/make_current/'+org;
+}
+)();">Change Org</a>
 </body>
 </html>
