@@ -7,14 +7,10 @@
 	Drag this to your bookmark bar:
 	<a href="javascript:(function()
 	{
-	var org = ''
-	org = prompt('ORG ID:\nLEAVE BLANK FOR DEMO FEST');
-	if(org == '')
+	var org = prompt('ORG ID:', '8');
+	
+	if(org != NULL)
 	{
-	org = '8';
-}
-if(org != NULL)
-{
 	location.href='http://app/organizations/make_current/'+org;
 }
 }
